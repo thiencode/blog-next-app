@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "pages/posts/page.js",
+    "lib/helper.js",
+    "components/section2.js",
+    "lib/fetcher.js",
+    "components/section1.js",
+    "components/section3.js",
+    "components/section4.js",
+    "pages/posts/[postId].js",
+    "components/_child/related.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
